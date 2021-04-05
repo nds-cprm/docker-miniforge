@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=debian:buster
+ARG BASE_IMAGE=debian:buster-slim
 FROM ${BASE_IMAGE}
 
 # Fix DL4006
